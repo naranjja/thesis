@@ -15,7 +15,7 @@ $\chi^2$
 
 This is some graphic
 
-![](/img/optimizable-parameters.svg)
+![](img/optimizable-parameters.svg)
 
 
 
