@@ -1,6 +1,2 @@
-# Theoretical framework
+# Marco teórico
 ***
-
-
-
-This is some text

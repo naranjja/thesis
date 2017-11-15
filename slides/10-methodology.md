@@ -1,6 +1,2 @@
-# Methodology
+# Metodología
 ***
-
-
-
-This is some text

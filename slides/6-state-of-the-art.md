@@ -1,6 +1,2 @@
-# State of the art
+# Estado del arte
 ***
-
-
-
-This is some text

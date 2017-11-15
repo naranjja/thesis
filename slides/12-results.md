@@ -1,6 +1,2 @@
-# Results
+# Resultados
 ***
-
-
-
-This is some text

@@ -1,6 +1,2 @@
-# Conclusions
+# Conclusiones
 ***
-
-
-
-This is some text

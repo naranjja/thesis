@@ -1,6 +1,2 @@
-# Hypotheses
+# Hipótesis
 ***
-
-
-
-This is some text

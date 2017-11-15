@@ -1,6 +1,2 @@
-# Objectives
+# Objetivos
 ***
-
-
-
-This is some text

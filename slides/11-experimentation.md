@@ -1,6 +1,2 @@
-# Experimentation
+# Experimentación
 ***
-
-
-
-This is some text

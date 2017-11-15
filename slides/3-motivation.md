@@ -1,6 +1,2 @@
-# Motivation
+# Motivación
 ***
-
-
-
-This is some text

@@ -1,6 +1,2 @@
-# Scope
+# Alcance
 ***
-
-
-
-This is some text

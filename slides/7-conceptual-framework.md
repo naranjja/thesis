@@ -1,6 +1,2 @@
-# Conceputal framework
+# Marco conceptual
 ***
-
-
-
-This is some text

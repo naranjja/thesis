@@ -1,43 +1,28 @@
-# Introduction
+# Introducción
 ***
 
 
-
-This is some text
-
-
-
-This is some equation
-
-$\chi^2$
-
-
-
-This is some graphic
 
 ![](img/optimizable-parameters.svg)
 
 
 
-This is some code in Python
-```python
-from datalab import storage
-if storage.Buckets().contains('some-bucket'):
-  print('The outcome was {}'.format(True))
-```
+- La **calidad** de un modelo se mide en función a qué tanto puede reducir la brecha entre las predicciones y la realidad.
+<imagen que ilustre predicciones y realidad, tabla de probabilidades>
 
-This is some code in JavaScript
-```javascript
-import { storage } from 'datalab'
-const checkBucket = callback => {
-  if (storage.Buckets().contains('some-bucket')) {
-    callback(null, true)
-  } else {
-    callback('error')
-  }
-}
-checkBucket((err, result) => {
-  if err console.error(err)
-  console.log(`The outcome was ${result}`)
-})
-```
+
+
+### Garbage in, garbage out
+- Los modelos son tan buenos como sus datos.
+- Malos datos no pueden dar un buen modelo.
+  - Si pudieran, no serían *malos*.
+
+
+
+### Relación dependiente y tautológica
+- **Los modelos son buenos** si es que pueden predecir bien.
+- **Los datos son buenos** si es que le permiten a los modelos predecir bien.
+
+
+
+¿Qué ocurre cuando no hay datos?
