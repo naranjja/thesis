@@ -3,10 +3,6 @@
 
 
 
-![](img/optimizable-parameters.svg)
-
-
-
 - La **calidad** de un modelo se mide en función a qué tanto puede reducir la brecha entre las predicciones y la realidad.
 <imagen que ilustre predicciones y realidad, tabla de probabilidades>
 
@@ -25,4 +21,8 @@
 
 
 
-¿Qué ocurre cuando no hay datos?
+¿Por qué no nos preocupamos en mejorar la calidad de nuestros datos?
+
+
+
+![](img/optimizable-parameters.svg)
