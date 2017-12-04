@@ -4,17 +4,12 @@
 
 
 ### Objetivo general
-Mejorar la calidad de los datos de manera iterativa, hasta llegar a un conjunto suficiente para responder un problema de predicción particular.
+Describir un proceso de mejora continua de la calidad de los datos a través de la experimentación, que permita iterativamente mejorar el flujo de datos de ingreso a un modelo predictivo.
 
 
 
 ### Objetivos específicos
-- Crear un proceso de mejora continua de los flujos de datos
-  - Técnicas de generación de datos valiosos
-    - Preguntas
-    - Sistemas de expertos
-  - Análisis de incidencia de las variables
-  - Descubrimiento de *insights* de manera iterativa
-    - *Cluster*-and-*regress*
-    - Estadística descriptiva
+- Proponer un proceso flexible
+- Recopilar un conjunto de herramientas que aseguren la flexbilidad del proceso
+- Desarrollar un flujo de trabajo que se pueda utilizar para ver funcionar el proceso
 - Validar el proceso con un caso real

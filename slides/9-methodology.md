@@ -1,0 +1,5 @@
+# Metodología
+***
+
+
+![](img/macro.svg)

@@ -3,16 +3,12 @@
 
 
 
-*“No theory is 100% correct, consequently, truth is a poor test for knowledge. The real test is utility.”*
-\- Francis Bacon, 1620
-
-
-
 - Existe una debilidad en la metodología actual
-    - Recaudamiento de datos para el reporte y la gestión
-    - Poca importancia sobre los datos en el proceso completo
-    - No hay suficientes datos
-        - Suficiencia en términos de utilidad
+  - Hay muchas formas de aproximar el proceso
+    - No hay una forma definida
+  - El proceso de mejora del flujo de datos es complejo
+  - Para muchas organizaciones no hay suficientes datos
+      - Suficiencia en términos de utilidad
 
 
 
@@ -34,27 +30,32 @@
 
 
 
-¿Cómo podemos generar el mejor conjunto de preguntas, en función a su capacidad predictiva?
+¿Cómo podemos generar el mejor conjunto de datos, en función a su capacidad predictiva?
 
 
 
 - Aislar el efecto de los datos
   - Analizar la incidencia sobre la predicción
-- Reducir el sesgo
+- Realizar una serie de pruebas
 - Buscar generar *insights* sobre los datos de manera iterativa
 
 
 
-<poner grafico sobre como los insights son de cada variable, pero también en los cambios a lo largo de T de la variable>
-
-
-
-### Hirotugu Akaike
-- Si lo previo al modelo es constante, **puedo escoger distintos modelos y ver cuál es mejor.**
-<grafico>
+### Aislamiento de efectos
+- Si lo previo al modelo es constante, **puedo escoger distintos modelos y ver cuál es mejor.** (Hirotugu Akaike)
 - Si lo posterior a los datos es constante, **puedo escoger distintos datos y ver cuáles son mejores.**
-<grafico>
 
 
 
-¿Qué pasaría si existiese un sistema que **mide qué tan útil** son los datos que se tienen y ayudase a hacer que cada vez sean mejores?
+![](img/constant.svg)
+
+
+
+Un proceso claro de KDD, en el que se pueda experimentar con distintos datos para mejorar la calidad de los mismos hasta converger en un conjunto lo suficientemente bueno.
+
+
+
+### Caso de estudio
+- Información lingüística
+- Necesidad de un proceso instaurado
+- Mejoras en los resultados
