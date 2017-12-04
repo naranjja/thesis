@@ -16,6 +16,7 @@
 2. Seguimiento
 - Clasificación multiclase con clases relativas
 - Información lingüística
+- Priorización del error tipo 1 (*recall*)
 
 
 
