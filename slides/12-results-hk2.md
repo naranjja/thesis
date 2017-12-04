@@ -1,14 +1,16 @@
 # Resultados
 ***
-Admisión
+Seguimiento
 
 
 
 ### Correlaciones entre variables numéricas
+![](img/num-corr.png)
 
 
 
 ### Resultados del *clustering*
+![](img/hk2-clusters.png)
 
 
 
@@ -28,45 +30,47 @@ Gráficos con los clusters de los malos
 
 
 
-CM del LightGBM
+![](img/hk1-cm-lgbm.png)
 
 
 
-CM del Random Forest
+![](img/hk1-cm-rf.png)
 
 
 
-CM del ExtraTrees
+![](img/hk1-cm-et.png)
 
 
 
 ### Importancia de las variables
+![](img/hk1-fe1.png)
 
 
 
 ### Importancia de las variables de mayor incertidumbre
+![](img/hk1-fe2.png)
 
 
 
 ### Ranking final
+Variables más discriminantes
+
+
+- El número de operaciones
+- El porcentaje de créditos heredados
+- Si es que el asesor es comercial senior
+- Si es que el asesor es comercial junior 1
+- Si es que el asesor trabaja en una zona rural
+- Los meses de antigüedad del asesor en la organización
 
 
 
-1. El número de operaciones
-2. El porcentaje de créditos heredados
-3. Si es que el asesor es comercial senior
-4. Si es que el asesor es comercial junior 1
-5. Si es que el asesor trabaja en una zona rural
-6. Los meses de antigüedad del asesor en la organización
-
-
-
-7. La variación en el saldo capital
-8. El porcentaje de créditos con cero cuotas canceladas
-9. Si es que el asesor se encuentra casado
-10. El valor de la pregunta 3
-11. El valor de la pregunta 13
-12. Si es que el asesor es comercial junior 2
+- La variación en el saldo capital
+- El porcentaje de créditos con cero cuotas canceladas
+- Si es que se encuentra casado
+- El valor de la pregunta 3
+- El valor de la pregunta 13
+- Si es que postula al cargo de asesor comercial junior 2
 
 
 

@@ -19,12 +19,13 @@ Admisión
 
 
 
-### Frecuencia de observaciones perteneciente a las clases
+### Observaciones pertenecientes a las clases
 ![](img/class-freq.png)
 
 
 
 ### Resultados del *clustering*
+![](img/hk1-clusters.png)
 
 
 
@@ -44,45 +45,47 @@ Gráficos con los clusters de los malos
 
 
 
-CM del LightGBM
+![](img/hk1-cm-lgbm.png)
 
 
 
-CM del Random Forest
+![](img/hk1-cm-rf.png)
 
 
 
-CM del ExtraTrees
+![](img/hk1-cm-et.png)
 
 
 
 ### Importancia de las variables
+![](img/hk1-fe1.png)
 
 
 
 ### Importancia de las variables de mayor incertidumbre
+![](img/hk1-fe2.png)
 
 
 
 ### Ranking final
+Variables más discriminantes
+
+
+- El valor de la pregunta 13
+- Si es que postula al cargo de asesor comercial senior
+- El valor de la pregunta 29
+- Si es que postula al cargo de asesor comercial junior 2
+- El valor de la pregunta 30
+- El valor de la pregunta 10
 
 
 
-1. El valor de la pregunta 13
-2. Si es que el candidato postula al cargo de asesor comercial senior
-3. El valor de la pregunta 29
-4. Si es que el candidato postula al cargo de asesor comercial junior 2
-5. El valor de la pregunta 30
-6. El valor de la pregunta 10
-
-
-
-7. El valor de la pregunta 27
-8. El valor de la pregunta 23
-9. El valor de la pregunta 5
-10. El valor de la pregunta 1
-11. El género del candidato
-12. El valor de la pregunta 18
+- El valor de la pregunta 27
+- El valor de la pregunta 23
+- El valor de la pregunta 5
+- El valor de la pregunta 1
+- El género del candidato
+- El valor de la pregunta 18
 
 
 
@@ -93,12 +96,12 @@ CM del ExtraTrees
 
 
 ### Análisis de sensibilidad
-- $\Delta_{p_5} > 0 \rightarrow \hat{y} > 0$
-- $\Delta_{p_{10}} > 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
-- $\Delta_{p_{11}} < 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
-- $\Delta_{p_{13}} > 0 \rightarrow (\hat{y} = 2 \rightarrow \hat{y} = 0)$
-- $\Delta_{p_{18}} < 0 \rightarrow \hat{y} < 2$
-- $\Delta_{p_{19}} < 0 \rightarrow \hat{y} = 2$
+- $\Delta_{p5} > 0 \rightarrow \hat{y} > 0$
+- $\Delta_{p10} > 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
+- $\Delta_{p11} < 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
+- $\Delta_{p13} > 0 \rightarrow (\hat{y} = 2 \rightarrow \hat{y} = 0)$
+- $\Delta_{p18} < 0 \rightarrow \hat{y} < 2$
+- $\Delta_{p19} < 0 \rightarrow \hat{y} = 2$
 
 
 
