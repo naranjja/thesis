@@ -28,11 +28,11 @@ Conjunto de herramientas:
 
 
 
-![](/img/distance1.svg)
+![](img/distance1.svg)
 
 
 
-![](/img/distance5.svg)
+![](img/distance5.svg)
 
 
 
@@ -40,7 +40,7 @@ Mientras más pequeños los círculos, más densa el área. <br> Luego se halla 
 
 
 
-![](/img/how_hdbscan_works_10_1.png)
+![](img/how_hdbscan_works_10_1.png)
 
 
 
@@ -54,7 +54,7 @@ Mientras más pequeños los círculos, más densa el área. <br> Luego se halla 
 
 
 
-![](/img/id3.png)
+![](img/id3.png)
 
 
 
@@ -102,4 +102,4 @@ Agrupar los resultados para generar uno que sea más útil que cada uno independ
 
 
 
-![](/img/lime.png)
+![](img/lime.png)

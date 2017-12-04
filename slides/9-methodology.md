@@ -34,7 +34,7 @@
 
 
 
-![](/img/errors.svg)
+![](img/errors.svg)
 
 
 
