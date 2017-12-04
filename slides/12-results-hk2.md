@@ -14,15 +14,18 @@ Seguimiento
 
 
 
-Gráficos con los 2 clusters
+Todos los asesores
+![](img/hk2-cluster1.svg)
 
 
 
-Gráficos con los clusters de los buenos
+Los buenos asesores
+![](img/hk2-cluster2.svg)
 
 
 
-Gráficos con los clusters de los malos
+Los malos asesores
+![](img/hk2-cluster3.svg)
 
 
 
@@ -30,15 +33,21 @@ Gráficos con los clusters de los malos
 
 
 
+### LightGBM
 ![](img/hk1-cm-lgbm.png)
+$e_1 = 77.41\%$, $e_2 = 57.14\%$
 
 
 
+### RandomForestClassifier
 ![](img/hk1-cm-rf.png)
+$e_1 = 70\%$, $e_2 = 56.75\%$
 
 
 
+### ExtraTreesClassifier
 ![](img/hk1-cm-et.png)
+$e_1 = 80.64\%$, $e_2 = 54.34\%$
 
 
 
@@ -47,7 +56,7 @@ Gráficos con los clusters de los malos
 
 
 
-### Importancia de las variables de mayor incertidumbre
+Importancia de las variables de mayor incertidumbre
 ![](img/hk1-fe2.png)
 
 
@@ -56,15 +65,13 @@ Gráficos con los clusters de los malos
 Variables más discriminantes
 
 
+
 - El número de operaciones
 - El porcentaje de créditos heredados
 - Si es que el asesor es comercial senior
 - Si es que el asesor es comercial junior 1
 - Si es que el asesor trabaja en una zona rural
 - Los meses de antigüedad del asesor en la organización
-
-
-
 - La variación en el saldo capital
 - El porcentaje de créditos con cero cuotas canceladas
 - Si es que se encuentra casado
@@ -101,5 +108,5 @@ Variables más discriminantes
 
 
 ### Modelo final
-- *Accuracy*: $53.84\%$ ($\Delta = +0.24pp$)
+- Accuracy: $53.84\%$ ($\Delta = +0.24pp$)
 - Exhaustividad: $83.96\%$ ($\Delta = +23.96pp$)

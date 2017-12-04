@@ -3,7 +3,7 @@
 
 
 
-### Status quo
+### *Status quo*
 - Existe una debilidad en la metodología actual
   - Hay muchas formas de aproximar el proceso
     - No hay una forma fácilmente implementable*
@@ -21,7 +21,7 @@
 
 
 ### Las preguntas son útiles
-- Permiten generar un gran flujo de datos (mediciones y opiniones)
+- Permiten generar un gran flujo de datos*
   - Numéricas
   - Categóricas
   - Textuales
@@ -41,9 +41,9 @@
 
 
 
-### Ceteris paribus?
-- Si lo previo al modelo es constante, **puedo escoger distintos modelos y ver cuál es mejor.** (Hirotugu Akaike)
-- Si lo posterior a los datos es constante, **puedo escoger distintos datos y ver cuáles son mejores.**
+### *Ceteris paribus*
+- Si lo previo al modelo es constante, **se puede escoger distintos modelos y ver cuál es mejor.** (Akaike, 1981)
+- Si lo posterior a los datos es constante, **se puede escoger distintos datos y ver cuáles son mejores.**
 
 
 

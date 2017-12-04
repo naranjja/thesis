@@ -29,15 +29,18 @@ Admisión
 
 
 
-Gráficos con los 3 clusters
+Todos los asesores
+![](img/hk1-cluster1.svg)
 
 
 
-Gráficos con los clusters de los buenos
+Los buenos asesores
+![](img/hk1-cluster2.svg)
 
 
 
-Gráficos con los clusters de los malos
+Los malos asesores
+![](img/hk1-cluster3.svg)
 
 
 
@@ -45,15 +48,21 @@ Gráficos con los clusters de los malos
 
 
 
+### LightGBM
 ![](img/hk1-cm-lgbm.png)
+$e_1 = 74.19\%$, $e_2 = 46.93\%$
 
 
 
+### RandomForestClassifier
 ![](img/hk1-cm-rf.png)
+$e_1 = 83.87\%$, $e_2 = 39.39\%$
 
 
 
+### ExtraTreesClassifier
 ![](img/hk1-cm-et.png)
+$e_1 = 80.34\%$, $e_2 = 38.46\%$
 
 
 
@@ -62,7 +71,7 @@ Gráficos con los clusters de los malos
 
 
 
-### Importancia de las variables de mayor incertidumbre
+Importancia de las variables de mayor incertidumbre
 ![](img/hk1-fe2.png)
 
 
@@ -71,15 +80,13 @@ Gráficos con los clusters de los malos
 Variables más discriminantes
 
 
+
 - El valor de la pregunta 13
 - Si es que postula al cargo de asesor comercial senior
 - El valor de la pregunta 29
 - Si es que postula al cargo de asesor comercial junior 2
 - El valor de la pregunta 30
 - El valor de la pregunta 10
-
-
-
 - El valor de la pregunta 27
 - El valor de la pregunta 23
 - El valor de la pregunta 5
@@ -98,13 +105,13 @@ Variables más discriminantes
 ### Análisis de sensibilidad
 - $\Delta_{p5} > 0 \rightarrow \hat{y} > 0$
 - $\Delta_{p10} > 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
-- $\Delta_{p11} < 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
+- $\Delta_{p30} < 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
 - $\Delta_{p13} > 0 \rightarrow (\hat{y} = 2 \rightarrow \hat{y} = 0)$
 - $\Delta_{p18} < 0 \rightarrow \hat{y} < 2$
-- $\Delta_{p19} < 0 \rightarrow \hat{y} = 2$
+- $\Delta_{p29} < 0 \rightarrow \hat{y} = 2$
 
 
 
 ### Modelo final
-- *Accuracy*: $48.38\%$ ($\Delta = +3.48pp$)
+- Accuracy: $48.38\%$ ($\Delta = +3.48pp$)
 - Exhaustividad: $80.64\%$ ($\Delta = +28.24pp$)

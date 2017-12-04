@@ -31,7 +31,7 @@ La **calidad** de un modelo se mide en función a qué tanto puede reducir la br
 
 
 
-### Garbage in, garbage out
+### *Garbage in, garbage out*
 - Los modelos son tan buenos como sus datos lo permitan.
   - Principal restricción
 - Malos datos no pueden dar un buen modelo.

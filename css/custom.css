@@ -334,7 +334,15 @@ body {
   box-shadow:none;
 }
 .scrollable {
-    overflow-y: auto  !important;
-    overflow-x: hidden !important;
-    height: 700px;
+  overflow-y: auto  !important;
+  overflow-x: hidden !important;
+  height: 700px;
+}
+.reveal section img {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-height: 580px;
+    width: auto;
+    max-width: 100%;
 }

@@ -62,5 +62,5 @@
 - Número de operaciones desembolsadas (*integer*)
 - Porcentaje de desembolsos en la última semana (*float*)
 - Variación porcentual del saldo capital (*float*)
-- Porcentaje de créditos con 0 cuotas canceladas (*float*)
+- Porcentaje de créditos con cero cuotas canceladas (*float*)
 - Participación en la escuela de formación (*boolean*)

@@ -32,3 +32,7 @@
 ### Herramientas de estadística descriptiva
 - *AWS Data Insights*
 - *TDSP Utilities*: *IDEAR* y *AMAR*.
+
+
+
+![](img/aws.png)

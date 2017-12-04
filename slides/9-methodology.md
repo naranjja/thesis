@@ -30,6 +30,10 @@
 
 
 
+![](/img/errors.svg)
+
+
+
 ### Análisis exploratorio
 - Correlaciones entre variables
 - Estadística descriptiva
