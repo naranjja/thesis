@@ -3,10 +3,6 @@
 
 
 
-![](img/macro2.svg)
-
-
-
 ![](img/macro.svg)
 
 
@@ -52,9 +48,12 @@
 
 ### Modelamiento predictivo optimizado
 - Validación cruzada
-- Optimizaciones a estimadores
+- Optimizaciones a estimadores*
+  - *LightGBM*
+  - *RandomForestClassifier*
+  - *ExtraTreesClassifier*
 - Ensamblaje de estimadores
-- Análisis de sensibilidad
+- Análisis de sensibilidad usando *LIME*
 
 
 
@@ -71,4 +70,4 @@
 ### Recomendaciones
 - Sobre los hallazgos a lo largo del proceso
 - Sobre el ranking de variables
-- Entrenamiento de modelo óptimo
+- Entrenamiento de modelo óptimo para la validación

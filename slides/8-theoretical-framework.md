@@ -7,7 +7,7 @@ Conjunto de herramientas:
   - Interpretables
   - Flexibles
   - Estables
-  - *Kitchen sink**
+  - *Kitchen sinks**
 
 
 
@@ -16,7 +16,7 @@ Conjunto de herramientas:
 - Aplicación como herramienta descriptiva:
   - Explorar
   - Resumir
-  - Mejorar el poder predictivo de los modelos*
+- Mejorar el poder predictivo de los modelos*
 
 
 
@@ -24,11 +24,8 @@ Conjunto de herramientas:
 - Algoritmo de *clustering* jerárquico basado en densidades
   - Extensión de DBSCAN
 - Busca las zonas densas separadas por las que no son densas
-  - No todos los puntos están en un cluster (elimina el ruido )
+  - No todos los puntos están en un cluster (elimina el ruido)
 
-
-
-![](img/distance1.svg)
 
 
 
@@ -50,11 +47,14 @@ Mientras más pequeños los círculos, más densa el área. <br> Luego se halla 
 - Minimización por etapas (en cada decisión)
   - ID3: Entropía o ganancia de información*
   - Otras métricas de desempeño
-- Existen muchos árboles de decisión correctos*
 
 
 
 ![](img/id3.png)
+
+
+
+Existen muchos árboles de decisión correctos*
 
 
 
@@ -77,16 +77,6 @@ Agrupar los resultados para generar uno que sea más útil que cada uno independ
 
 
 
-### Modelos utilizados
-- *Scikit-Learn*:
-  - *RandomForestClassifier*
-  - *RandomForestRegressor*
-  - *ExtraTreesClassifier*
-  - *ExtraTreesRegressor*
-- *LightGBM*
-
-
-
 ### Ranking de variables
 - Las variables que reducen más la entropía (FI)
 - Las variables más correlacionadas con el objetivo (CFI)
@@ -99,7 +89,4 @@ Agrupar los resultados para generar uno que sea más útil que cada uno independ
 - LIME: explicaciones locales, interpretables y agnósticas a los modelos
   - Identifica un modelo a partir de los resultados
   - Permite probar los cambios rápidamente para encontrar sensibilidades
-
-
-
 ![](img/lime.png)

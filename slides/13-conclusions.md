@@ -7,7 +7,7 @@
   - Eficiente
   - Efectivo
   - Flexible
-  - Fácil de implementar
+  - Fácil de implementar*
   - Con herramientas de uso gratuito
 
 

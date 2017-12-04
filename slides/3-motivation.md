@@ -13,23 +13,6 @@
 
 
 
-### Ausencia de información
-- Necesidad de crear flujos nuevos de datos:
-  1. Mediciones
-  2. Opiniones*
-
-
-
-### Las preguntas son útiles
-- Permiten generar un gran flujo de datos*
-  - Numéricas
-  - Categóricas
-  - Textuales
-  - Fechas
-- Alto riesgo de sesgo
-
-
-
 ¿Cómo podemos generar el mejor conjunto de datos, en función a su capacidad predictiva?
 
 
@@ -52,10 +35,3 @@
 
 
 Un proceso claro en el que se pueda experimentar con distintos datos para mejorar la calidad de los mismos **hasta converger en un conjunto lo suficientemente bueno**.
-
-
-
-### Caso de estudio
-- Información lingüística
-- Necesidad de un proceso instaurado
-- Mejoras en los resultados

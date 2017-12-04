@@ -3,14 +3,7 @@
 
 
 
-![](img/sequential-structure.png)
-
-
-
-### Problemas de la estructura secuencial
-- Etapas ejecutadas en secuencia
-- Iterativo en los pasos intermedios
-- El origen debe poder replantearse
+![](img/macro2.svg)
 
 
 
@@ -26,13 +19,10 @@
 - Genéricas por diseño
 - No hay una metodología concreta
   - ¿De dónde salen los *insights*?
+  - ¿Cómo puedo implementarlo?
 
 
 
 ### Herramientas de estadística descriptiva
 - *AWS Data Insights*
 - *TDSP Utilities*: *IDEAR* y *AMAR*.
-
-
-
-![](img/aws.png)

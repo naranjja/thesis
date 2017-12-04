@@ -8,15 +8,16 @@
 - Altos costos de generar flujos de datos nuevos
 - La base de la pirámide peruana
 - Optimizar calidad de cartera de clientes a través de la calidad de los asesores
+- Información lingüística
 
 
 
 ### Dos modelos predictivos
 1. Admisión
 2. Seguimiento
-- Clasificación multiclase con clases relativas
-- Información lingüística
-- Priorización del error tipo 1 (*recall*)
+
+Clasificación multiclase con clases relativas
+  - Priorización del error tipo 1 (*recall*)
 
 
 

@@ -4,7 +4,7 @@
 
 
 ### Hipótesis general
-Si se tiene un proceso iterativo de mejora continua de la calidad de los flujos de datos en un modelo predictivo, se **logrará mejorar el poder predictivo del mismo, así como replantear cuestiones de negocio.**
+Si se tiene un proceso iterativo de mejora continua de la calidad de los flujos de datos en un modelo predictivo, se **logrará (i) mejorar el poder predictivo del mismo, así como  (ii) replantear cuestiones de negocio.**
 
 Ambas mejoras inciden en mejores tomas de decisiones y modelamiento más eficiente.
 
