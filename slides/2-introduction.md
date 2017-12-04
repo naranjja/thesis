@@ -7,19 +7,19 @@
 
 
 
-El *core* de la Ingeniería de la Información
+### El *core* de la Ingeniería de la Información
 - Los datos pueden ser un activo muy importante para los organizaciones.
   - Se pueden utilizar para tomar decisiones más objetivas.
   - Se pueden utilizar para predecir.
 
 
 
-Proceso básico de modelamiento
+### Proceso básico de modelamiento
 ![](img/lineal-kdd.svg)
 
 
 
-- La **calidad** de un modelo se mide en función a qué tanto puede reducir la brecha entre las predicciones y la realidad.
+La **calidad** de un modelo se mide en función a qué tanto puede reducir la brecha entre las predicciones y la realidad.
 
 
 

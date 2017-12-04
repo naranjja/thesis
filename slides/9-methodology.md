@@ -7,6 +7,7 @@
 
 
 
+### Alcance
 - Proceso planteado de manera agnóstica
 - Validación empírica
 
@@ -14,6 +15,10 @@
 
 ### Tecnologías utilizadas
 - *Python* y *Jupyter Notebooks*
+- *Scikit-Learn*
+- *HDBSCAN*
+- *LIME*
+- *LightGBM*
 
 
 
@@ -25,7 +30,7 @@
 
 
 
-### Análisis explotorio
+### Análisis exploratorio
 - Correlaciones entre variables
 - Estadística descriptiva
 - Perfilamiento

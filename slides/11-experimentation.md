@@ -3,21 +3,19 @@
 
 
 
+### Contexto
 - Organización microfinanciera en el Perú
 - Altos costos de generar flujos de datos nuevos
-
-
-
-## Contexto
 - La base de la pirámide peruana
 - Optimizar calidad de cartera de clientes a través de la calidad de los asesores
 
 
 
-- Dos modelos predictivos:
-  1. Admisión
-  2. Seguimiento
+### Dos modelos predictivos
+1. Admisión
+2. Seguimiento
 - Clasificación multiclase con clases relativas
+- Información lingüística
 
 
 
@@ -29,36 +27,39 @@
 
 
 
+### Descripción de los datos
 - Muestra de 768 asesores
-- Ingresos desde enero a marzo de 2017 (considerando octubre para el seguimiento)
+- Ingresos desde enero a marzo de 2017
+  - Octubre como referencia para el seguimiento
 
 
 
 ### Lista de variables
 
 
+
 ### Admisión
-- 30 preguntas al jurado
-- Cargo al que postula
-- Edad
-- Estado civil
-- Género
-- Nivel de ingresos
+- 30 preguntas al jurado (*float*)
+- Cargo al que postula (*string*)
+- Edad (*integer*)
+- Estado civil (*string*)
+- Género (*string*)
+- Nivel de ingresos (*string*)
 
 
 
 ### Admisión y segumiento
-- Antigüedad en la organización
-- Ratio de crecimiento de deuda
-- Número de instituciones financieras cercanas
-- Zonas de trabajo del asesor
-- Tenencia de créditos heredados
-- Tenencia de amonestaciones y suspensiones
+- Antigüedad en la organización (*float*)
+- Ratio de crecimiento de deuda (*float*)
+- Número de instituciones financieras cercanas (*integer*)
+- Zona de trabajo del asesor (*string*)
+- Tenencia de créditos heredados (*boolean*)
+- Tenencia de amonestaciones y suspensiones (*boolean*)
 
 
 
-- Número de operaciones desembolsadas
-- Desembolsos en la última semana
-- Variación porcentual del saldo capital
-- Porcentaje de créditos con 0 cuotas canceladas
-- Participación en la escuela de formación
+- Número de operaciones desembolsadas (*integer*)
+- Porcentaje de desembolsos en la última semana (*float*)
+- Variación porcentual del saldo capital (*float*)
+- Porcentaje de créditos con 0 cuotas canceladas (*float*)
+- Participación en la escuela de formación (*boolean*)
