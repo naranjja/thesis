@@ -4,19 +4,7 @@ Admisión
 
 
 
-### Correlaciones entre preguntas
-
-
-
-### Definición de variable objetivo
-
-
-
-### Definición de clases relativas
-
-
-
-### Frecuencia de observaciones perteneciente a las clases
+### Correlaciones entre variables numéricas
 
 
 
@@ -24,7 +12,7 @@ Admisión
 
 
 
-Gráficos con los 3 clusters
+Gráficos con los 2 clusters
 
 
 
@@ -52,14 +40,6 @@ CM del ExtraTrees
 
 
 
-### Análisis de sensibilidad
-- $\Delta_{p_5} > 0 \rightarrow \hat{y} = 0$
-- $\Delta_{p_10} > 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
-- $\Delta_{p_11} < 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
-- $\Delta_{p_13} > 0 \rightarrow (\hat{y} = 2 \rightarrow \hat{y} = 0)$
-
-
-
 ### Importancia de las variables
 
 
@@ -69,27 +49,53 @@ CM del ExtraTrees
 
 
 ### Ranking final
-1. El valor de la pregunta 13
-2. Si es que el candidato postula al cargo de asesor comercial senior
-3. El valor de la pregunta 29
-4. Si es que el candidato postula al cargo de asesor comercial junior 2
-5. El valor de la pregunta 30
-6. El valor de la pregunta 10
-7. El valor de la pregunta 27
-8. El valor de la pregunta 23
-9. El valor de la pregunta 5
-10. El valor de la pregunta 1
-11. El género del candidato
-12. El valor de la pregunta 18
+
+
+
+1. El número de operaciones
+2. El porcentaje de créditos heredados
+3. Si es que el asesor es comercial senior
+4. Si es que el asesor es comercial junior 1
+5. Si es que el asesor trabaja en una zona rural
+6. Los meses de antigüedad del asesor en la organización
+
+
+
+7. La variación en el saldo capital
+8. El porcentaje de créditos con cero cuotas canceladas
+9. Si es que el asesor se encuentra casado
+10. El valor de la pregunta 3
+11. El valor de la pregunta 13
+12. Si es que el asesor es comercial junior 2
 
 
 
 ### Recomendaciones
-- Eliminar las preguntas 25, 11 y 3
-- Revisar correlación entre el nivel de ingresos y postulación al cargo de asesor comercial junior 1
+- Eliminar las preguntas 2, 28, 8, 25, 23 y 29
+- Revisar correlación entre:
+  - Las variables correspondientes a las cuotas canceladas
+  - El número de operaciones y el nivel de productividad
+  - La edad y la antigüedad en la empresa
+
+
+
+### Análisis de sensibilidad
+- $x_1$: número de operaciones
+- $x_2$: porcentaje de créditos heredados
+- $x_3$: meses de antigüedad en la organización
+- $x_4$: número de desembolsos en la última semana
+- $x_5$: variación del saldo capital
+
+
+
+- $\Delta_{x_1} < 0 \rightarrow (\hat{y} = 2 \rightarrow \hat{y} = 0)$
+- $\Delta_{x_2} > 0 \rightarrow (\hat{y} = 2 \rightarrow \hat{y} = 0)$
+- $\Delta_{x_3} > 0 \rightarrow \hat{y} = 2$
+- $\Delta_{x_4} < 0 \rightarrow (\hat{y} = 2 \rightarrow \hat{y} = 0)$
+- $\Delta_{x_5} < 0 \rightarrow (\hat{y} = 0 \rightarrow \hat{y} = 2)$
 
 
 
 ### Modelo final
-- *Accuracy*: $48.38\perc$ ($\Delta = 3.48pp$)
-- Exhaustividad: $80.64\perc$ ($\Delta = 28.24$)
+- *Accuracy*: $53.84\%$ ($\Delta = +0.24pp$)
+- Exhaustividad: $83.96\%$ ($\Delta = +23.96pp$)
