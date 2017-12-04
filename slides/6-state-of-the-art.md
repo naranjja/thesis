@@ -29,5 +29,5 @@ Estructura secuencial de KDP
 
 
 ### Herramientas de estadística descriptiva
-*AWS Data Insights*
-*TDSP Utilities*: *IDEAR* y *AMAR*.
+- *AWS Data Insights*
+- *TDSP Utilities*: *IDEAR* y *AMAR*.
